@@ -8,4 +8,11 @@
       userId.toLowerCase();
     }
   }
+
+  // Literal types
+  type Sizes = 'S' | 'M' | 'XL'
+  let shirtSize: Sizes;
+  shirtSize = 'M'
+  shirtSize = 'S'
+  shirtSize = 'XL'
 })();
